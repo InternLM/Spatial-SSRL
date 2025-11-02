@@ -120,3 +120,14 @@ output_text = processor.batch_decode(
 )
 print("Model Response:", output_text)
 ```
+
+## 🛠️ Evaluation
+Prepare your environment:
+```bash
+git clone https://github.com/InternLM/Spatial-SSRL.git
+conda create -n spatialssrl python==3.10
+cd Spatial-SSRL/evaluation
+pip install -r requirements.txt
+
+```
+Start your evaluation by referring to the tutorials in <a href="https://github.com/InternLM/Spatial-SSRL/blob/main/evaluation/Eval.md">Eval.md</a >
