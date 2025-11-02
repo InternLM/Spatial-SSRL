@@ -1,0 +1,4 @@
+{
+    "SpatialSSRL-7b": "/path/to/local/Spatial-SSRL-7B",
+    "base-7b-noCoT": "/path/to/local/models--Qwen--Qwen2.5-VL-7B-Instruct"
+}

@@ -1,0 +1,1 @@
+Download the images in the ViewSpatial benchmark from [Huggingface](https://huggingface.co/datasets/lidingm/ViewSpatial-Bench) to this directory.
