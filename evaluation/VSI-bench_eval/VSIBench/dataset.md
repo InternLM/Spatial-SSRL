@@ -1,1 +1,0 @@
-The file `vsi_bench.json` for data overview will be updated soon.
