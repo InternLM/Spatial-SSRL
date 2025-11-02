@@ -1,0 +1,17 @@
+eg1
+question: "Consider the real-world 3D locations of the objects. Which object has a higher location? A. yellow bear kite B. building"
+
+eg2
+question: "Consider the real-world 3D location of the objects. Which object is further away from the camera? A. boat B. fire hydrant"
+
+eg3
+question: "Consider the real-world 3D locations and orientations of the objects. Which side of the airplane is facing the camera? A. front B.left C. back D. right"
+
+eg4
+question: "Consider the real-world 3D orientations of the objects. Are the kid and the teddy bear facing same or similar directions, or very different directions? A. very different directions B. same or similar directions"
+
+eg5
+question: "Consider the real-world 3D locations and orientations of the objects. If I stand at the recreational vehicle's position facing where it is facing, is the dog in front of me or behind me? A. behind B. in front of"
+
+eg6
+question: "Consider the real-world 3D locations of the objects. Is the clock directly underneath the train station roof top? A. yes B. no"
