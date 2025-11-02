@@ -2,8 +2,7 @@
   <h1 align="center">
     <div style="display: flex; align-items: center; justify-content: center;">
       <div style="text-align: left; line-height: 1.3;">
-        Spatial-SSRL: Enhancing Spatial Understanding via Self-Supervised
-Reinforcement Learning
+        Spatial-SSRL: Enhancing Spatial Understanding via Self-Supervised Reinforcement Learning
       </div>
     </div>
   </h1>
