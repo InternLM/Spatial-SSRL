@@ -141,7 +141,7 @@ Start your evaluation by referring to the tutorials in <a href="https://github.c
 ## 📄 License
 ![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg) ![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg) 
 
-The data and code are intended and licensed for research use only.
+**Usage and License Notices**: The data and code are intended and licensed for research use only.
 
 ## ❤️ Acknowledgement
 We extend our sincere gratitude to <a href="https://github.com/open-compass/VLMEvalKit">VLMEvalkit</a >, the powerful toolkit to evaluate a vast range of LMMs!
