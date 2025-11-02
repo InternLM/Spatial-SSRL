@@ -35,7 +35,7 @@ Reinforcement Learning
 </div>
 
 ## 📢 News
-- 🚀 [11/02/2025] We have released the Spatial-SSRL [repository](https://github.com/InternLM/Spatial-SSRL).
+- 🚀 [2025/11/02] We have released the Spatial-SSRL [repository](https://github.com/InternLM/Spatial-SSRL).
 
   
 ## 🌈 Overview
