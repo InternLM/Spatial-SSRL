@@ -138,6 +138,14 @@ Start your evaluation by referring to the tutorials in <a href="https://github.c
 ## 👨‍💻 Todo
 - [ ] Release the training code.
 
+## Cases
+<p style="text-align: center;"> 
+  <img src="examples/case1.jpg" alt="Teaser" width="100%"> 
+</p>
+<p style="text-align: center;"> 
+  <img src="examples/case2.jpg" alt="Teaser" width="100%"> 
+</p>
+
 ## 📄 License
 ![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg) ![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg) 
 
