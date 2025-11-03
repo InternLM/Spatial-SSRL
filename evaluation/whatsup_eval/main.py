@@ -1,13 +1,13 @@
+
 import argparse
 import os
 import pandas as pd
 import json
-# 设置CUDA可见设备
+
 # os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
 os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 import sys
 import warnings
-
 
 from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
 import torch
@@ -27,7 +27,6 @@ from tqdm import tqdm
 import numpy as np
 import json
 import re
-# python main_aro.py --dataset=$dataset --model-name=$model_name
 def config():
     parser = argparse.ArgumentParser()
     parser.add_argument("--device", default="cuda", type=str)
@@ -38,8 +37,6 @@ def config():
             choices=["VG_Relation", "VG_Attribution", "COCO_Order", \
             "Flickr30k_Order", "Controlled_Images_A", "Controlled_Images_B", \
             "COCO_QA_one_obj", "COCO_QA_two_obj", "VG_QA_one_obj", "VG_QA_two_obj"])
-    #parser.add_argument("--seed", default=1, type=int)
-    
     parser.add_argument("--download", action="store_true", help="Whether to download the dataset if it doesn't exist. (Default: False)")
     parser.add_argument("--save-scores", action="store_true", help="Whether to save the scores for the retrieval to analyze later.")
     parser.add_argument("--output-dir", default="results", type=str)
@@ -55,13 +52,11 @@ def extract(response):
         return ''
     return matches[-1]
 
-def get_qwen_model(model_path):
-# def load_model(image, caption_options):
+def load_model(model_path):
     warnings.filterwarnings("ignore")
     device = 'cuda'
     processor = AutoProcessor.from_pretrained(model_path, trust_remote_code=True, padding_side='left', use_fast=True)
     # model = AutoModelForCausalLM.from_pretrained(model_path, trust_remote_code=True).to(device)
-    # model.eval()
     model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
                 model_path,
                 torch_dtype=torch.bfloat16,
@@ -95,7 +90,7 @@ def main(args):
     #seed_all(args.seed)
     file_path = 'model_config.json'
 
-    # 打开并读取 JSON 文件
+    # Read the json file
     with open(file_path, 'r', encoding='utf-8') as file:
         model_config = json.load(file)
     assert args.model_name in model_config
@@ -112,7 +107,7 @@ def main(args):
         temperature = 0.45
     device = "cuda"
     dataset = get_dataset(dataset_name, image_preprocess=image_preprocess, download=args.download)
-    model, processor = get_qwen_model(model_path)
+    model, processor = load_model(model_path)
     correct_num = 0
 
     output_jsonl_path = os.path.join(response_dir, f"{args.dataset}_x_{args.model_name}.jsonl")
@@ -128,9 +123,9 @@ def main(args):
         if args.CoT:
             format_prompt = "Based on the image, choose the correct option from the list below."
             format_prompt += "You FIRST think about the reasoning process as an internal monologue and then provide the final answer. The reasoning process MUST BE enclosed within <think> </think> tags. The final answer MUST BE put in \\boxed{}."
-            #format_prompt += "You FIRST think about the reasoning process and then provide the final answer in \\boxed{}." #used for qwen2.5-vl-7b as it fails to follow the prompt above
+            #format_prompt += "You FIRST think about the reasoning process and then provide the final answer in \\boxed{}." #used for qwen2.5-vl-7b cot as it fails to follow the prompt above
         else:
-            format_prompt = "Based on the image, choose the correct option from the list below. Please only respond the corresponding letter (e.g., C)."
+            format_prompt = "Based on the image, choose the correct option from the list below. Only respond the corresponding letter (e.g., C).\n\n"
         question = (
             f"{format_prompt}"
             f"{caption_text}"
