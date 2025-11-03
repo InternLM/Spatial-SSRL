@@ -36,7 +36,7 @@
 </div>
 
 ## 📢 News
-- 🚀 Now you can try out Spatial-SSRL-7B🛰️! ➡️ 🤗<a href="https://huggingface.co/spaces/yuhangzang/Spatial-SSRL">Spatial-SSRL-7B Space</a >
+- 🚀 [2025/11/03] Now you can try out Spatial-SSRL-7B on [🤗Spatial-SSRL Space](https://huggingface.co/spaces/yuhangzang/Spatial-SSRL).
 - 🚀 [2025/11/03] We have released the [Spatial-SSRL-7B Model](https://huggingface.co/internlm/Spatial-SSRL-7B)，and [Spatial-SSRL-81k Dataset](https://huggingface.co/datasets/internlm/Spatial-SSRL-81k).
 - 🚀 [2025/11/02] We have released the Spatial-SSRL [repository](https://github.com/InternLM/Spatial-SSRL).
 
@@ -71,7 +71,8 @@ We train Qwen2.5-VL-3B and Qwen2.5-VL-7B with our Spatial-SSRL paradigm and the 
 </p>
 
 ## ⭐️ Quick Start
-<!--To directly experience <strong>Spatial-SSRL-7B</strong>, you can try it out on huggingface (link)! -->
+To directly experience <strong>Spatial-SSRL-7B</strong>, you can try it out on [🤗Spatial-SSRL Space](https://huggingface.co/spaces/yuhangzang/Spatial-SSRL)!
+
 Here we provide a code snippet for you to start a simple trial of <strong>Spatial-SSRL-7B</strong> on your own device. You can download the model from 🤗<a href="https://huggingface.co/internlm/Spatial-SSRL-7B">Spatial-SSRL-7B Model</a > before your trial!
 </p>
 
