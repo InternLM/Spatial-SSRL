@@ -33,6 +33,7 @@
   | 🤗<a href="https://huggingface.co/datasets/internlm/Spatial-SSRL-81k">Spatial-SSRL-81k Dataset</a >
   </p > 
 </div>
+You can try out Spatial-SSRL-7B🛰️! ➡️ 🤗<a href="https://huggingface.co/spaces/yuhangzang/Spatial-SSRL">Spatial-SSRL-7B Space</a >
 
 ## 📢 News
 - 🚀 [2025/11/03] We have released the [Spatial-SSRL-7B Model](https://huggingface.co/internlm/Spatial-SSRL-7B)，and [Spatial-SSRL-81k Dataset](https://huggingface.co/datasets/internlm/Spatial-SSRL-81k).
