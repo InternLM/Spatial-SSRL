@@ -27,7 +27,8 @@
   </p >
   <p align="center" style="font-size: 1em; margin-top: -1em">  <sup>&dagger;</sup>Corresponding authors. </p >
   <p align="center" style="font-size: 1.2em; margin-top: 0.5em">
-    🏠<a href="https://github.com/InternLM/Spatial-SSRL">Homepage</a >
+    📖<a href="https://arxiv.org/abs/2510.27606">Paper</a>
+  | 🏠<a href="https://github.com/InternLM/Spatial-SSRL">Homepage</a >
   | 🤗<a href="https://huggingface.co/internlm/Spatial-SSRL-7B">Spatial-SSRL-7B Model</a >
   | 🤗<a href="https://huggingface.co/datasets/internlm/Spatial-SSRL-81k">Spatial-SSRL-81k Dataset</a >
   </p > 
@@ -143,6 +144,16 @@ Start your evaluation by referring to the tutorials in <a href="https://github.c
 <p style="text-align: center;"> 
   <img src="examples/case2.jpg" alt="Teaser" width="100%"> 
 </p>
+
+## ✒️Citation
+```
+@article{liu2025spatialssrl,
+  title={Spatial-SSRL: Enhancing Spatial Understanding via Self-Supervised Reinforcement Learning}, 
+  author={Liu, Yuhong and Zhang, Beichen and Zang, Yuhang and Cao, Yuhang and Xing, Long and Dong, Xiaoyi and Duan, Haodong and Lin, Dahua and Wang, Jiaqi},
+  journal={arXiv preprint arXiv:2510.27606},
+  year={2025}
+}
+```
 
 ## 📄 License
 ![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg) ![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg) 
