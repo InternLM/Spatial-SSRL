@@ -150,6 +150,7 @@ Start your evaluation by referring to the tutorials in <a href="https://github.c
 </p>
 
 ## ✒️Citation
+If you find this project useful, please kindly cite:
 ```
 @article{liu2025spatialssrl,
   title={Spatial-SSRL: Enhancing Spatial Understanding via Self-Supervised Reinforcement Learning}, 
