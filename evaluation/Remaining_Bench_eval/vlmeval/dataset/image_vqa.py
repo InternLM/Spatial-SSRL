@@ -1702,14 +1702,14 @@ class QSpatial(ImageBaseDataset):
             #     os.system(f"wget {link} -O {tgt_path}")
 
             self.system_prompt = open(
-                "/mnt/shared-storage-user/liuyuhong1/Attempt/2025-09-20/system.txt").read()
+                "/path/to/local/system.txt").read()
             self._prompt_templates = dict(
                 spatial_prompt_single=open(
-                    "/mnt/shared-storage-user/liuyuhong1/Attempt/2025-09-20/prompt.txt").read(),
+                    "/path_to/to/local/cot_prompt.txt").read(),
                 # spatial_prompt_steps=open(
                 #     os.path.join(temp_dir, "spatial_prompt_steps.txt")).read(),
                 standard_prompt=open(
-                    "/mnt/shared-storage-user/liuyuhong1/Attempt/2025-09-20/nocot.txt").read(),
+                    "/path/to/local/nocot.txt").read(),
                 # zero_shot_prompt=open(
                 #     os.path.join(temp_dir, "zero_shot_prompt.txt")).read(),
             )
@@ -1717,8 +1717,8 @@ class QSpatial(ImageBaseDataset):
     # Given one data record, return the built prompt (a multi-modal message), can override
     def build_prompt(self, line):
         from jinja2.sandbox import SandboxedEnvironment
-        #text_prompt_template = self._prompt_templates["spatial_prompt_single"] #cot prompt
-        text_prompt_template = self._prompt_templates["standard_prompt"] #no-cot ptompt
+        text_prompt_template = self._prompt_templates["spatial_prompt_single"] #cot prompt
+        #text_prompt_template = self._prompt_templates["standard_prompt"] #no-cot ptompt
         env = SandboxedEnvironment()
         text_prompt = env.from_string(text_prompt_template).render(
             question=line["question"])
