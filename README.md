@@ -63,7 +63,7 @@ Five tasks are currently formulated in the framework, requiring only ordinary RG
 - 🔥 **Lightweight:** Prior approaches for spatial understanding heavily rely on annotation of external tools, incurring inherent errors in training data and additional cost. In constrast, Spatial-SSRL is completely tool-free and can easily be extended to more self-supervised tasks. 
 - 🔥 **Naturally Verifiable:** Intrinsic supervisory signals determined by pretext objectives are naturally verifiable, aligning Spatial-SSRL well with the RLVR paradigm.
 <p style="text-align: center;"> 
-  <img src="assets/comparison_1029final.png" alt="Teaser" width="100%"> 
+  <img src="assets/comparison_v2.png" alt="Teaser" width="100%"> 
 </p>
 
 ## 📊 Results
