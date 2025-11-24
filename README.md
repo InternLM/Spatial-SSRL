@@ -30,12 +30,14 @@
     📖<a href="https://arxiv.org/abs/2510.27606">Paper</a>
   | 🏠<a href="https://github.com/InternLM/Spatial-SSRL">Homepage</a >
   | 🤗<a href="https://huggingface.co/internlm/Spatial-SSRL-7B">Spatial-SSRL-7B Model</a >
+  | 🤗<a href="https://huggingface.co/internlm/Spatial-SSRL-Qwen3VL-4B">Spatial-SSRL-Qwen3VL-4B Model</a >
   | 🤗<a href="https://huggingface.co/datasets/internlm/Spatial-SSRL-81k">Spatial-SSRL-81k Dataset</a >
   | 📰<a href="https://huggingface.co/papers/2510.27606">Daily Paper</a >
   </p > 
 </div>
 
 ## 📢 News
+- 🚀 [2025/11/24] We have released the [🤗Spatial-SSRL-Qwen3VL-4B Model](https://huggingface.co/internlm/Spatial-SSRL-Qwen3VL-4B), initialized from Qwen3-VL-4B-Instruct.
 - 🚀 [2025/11/03] Now you can try out Spatial-SSRL-7B on [🤗Spatial-SSRL Space](https://huggingface.co/spaces/yuhangzang/Spatial-SSRL).
 - 🚀 [2025/11/03] We have released the [Spatial-SSRL-7B Model](https://huggingface.co/internlm/Spatial-SSRL-7B), and [Spatial-SSRL-81k Dataset](https://huggingface.co/datasets/internlm/Spatial-SSRL-81k).
 - 🚀 [2025/11/02] We have released the Spatial-SSRL [repository](https://github.com/InternLM/Spatial-SSRL).
