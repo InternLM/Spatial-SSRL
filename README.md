@@ -136,7 +136,7 @@ from transformers import AutoProcessor, AutoModelForImageTextToText #transformer
 from qwen_vl_utils import process_vision_info #0.0.14
 import torch
 
-model_path = "internlm/Spatial-SSRL-Qwen3-VL-4B" #You can change it to your own local path if deployed already
+model_path = "internlm/Spatial-SSRL-Qwen3VL-4B" #You can change it to your own local path if deployed already
 
 #Change the path of the input image
 img_path = "assets/eg1.jpg"
