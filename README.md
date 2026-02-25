@@ -2,7 +2,7 @@
   <h1 align="center">
     <div style="display: flex; align-items: center; justify-content: center;">
       <div style="text-align: left; line-height: 1.3;">
-        Spatial-SSRL: Enhancing Spatial Understanding via Self-Supervised Reinforcement Learning
+        (CVPR 2026)Spatial-SSRL: Enhancing Spatial Understanding via Self-Supervised Reinforcement Learning
       </div>
     </div>
   </h1>
@@ -39,6 +39,7 @@
 
 ## 📢 News
 - 🚀 [2026/02/25] We have released the [🤗Spatial-SSRL-3B Model](https://huggingface.co/internlm/Spatial-SSRL-3B), initialized from Qwen2.5-VL-3B-Instruct.
+- 🚀 [2026/02/21] Our work has been accepted by CVPR 2026.
 - 🚀 [2025/11/24] We have released the [🤗Spatial-SSRL-Qwen3VL-4B Model](https://huggingface.co/internlm/Spatial-SSRL-Qwen3VL-4B), initialized from Qwen3-VL-4B-Instruct.
 - 🚀 [2025/11/03] Now you can try out Spatial-SSRL-7B on [🤗Spatial-SSRL Space](https://huggingface.co/spaces/yuhangzang/Spatial-SSRL).
 - 🚀 [2025/11/03] We have released the [Spatial-SSRL-7B Model](https://huggingface.co/internlm/Spatial-SSRL-7B), and [Spatial-SSRL-81k Dataset](https://huggingface.co/datasets/internlm/Spatial-SSRL-81k).
