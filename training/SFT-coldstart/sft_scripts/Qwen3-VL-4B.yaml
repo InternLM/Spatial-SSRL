@@ -1,0 +1,44 @@
+### model
+model_name_or_path: Qwen/Qwen3-VL-4B-Instruct
+
+image_max_pixels: 262144
+video_max_pixels: 16384
+#trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+lora_rank: 128
+finetuning_type: lora
+lora_target: all
+
+### dataset
+dataset: coldstart
+media_dir: ./data
+template: qwen3_vl
+cutoff_len: 4096
+max_samples: 4000 #表示数据集中最多使用的条数
+overwrite_cache: true
+preprocessing_num_workers: 16
+dataloader_num_workers: 4
+
+### output
+output_dir: ./sft_coldstart_qwen3_vl_4b
+logging_steps: 1
+save_steps: 15
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: false
+report_to: none  # choices: [none, wandb, tensorboard, swanlab, mlflow]
+
+### train
+per_device_train_batch_size: 4
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-5
+num_train_epochs: 5
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+resume_from_checkpoint: null
+
