@@ -38,6 +38,7 @@
 </div>
 
 ## 📢 News
+- 🚀 [2026/04/05] We have released the training code of Spatial-SSRL.
 - 🚀 [2026/02/25] We have released the [🤗Spatial-SSRL-3B Model](https://huggingface.co/internlm/Spatial-SSRL-3B), initialized from Qwen2.5-VL-3B-Instruct.
 - 🚀 [2026/02/21] Our work has been accepted by CVPR 2026.
 - 🚀 [2025/11/24] We have released the [🤗Spatial-SSRL-Qwen3VL-4B Model](https://huggingface.co/internlm/Spatial-SSRL-Qwen3VL-4B), initialized from Qwen3-VL-4B-Instruct.
