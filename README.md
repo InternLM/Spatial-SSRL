@@ -234,4 +234,5 @@ If you find this project useful, please kindly cite:
 
 ## ❤️ Acknowledgement
 We extend our sincere gratitude to <a href="https://github.com/open-compass/VLMEvalKit">VLMEvalkit</a >, the powerful toolkit to evaluate a vast range of LMMs!
+
 The work is built upon <a href="https://github.com/hiyouga/EasyR1">EasyR1</a > and <a href="https://github.com/hiyouga/LLaMAFactory">LlaMaFactory</a >, two excellent codebase for LLM training!
