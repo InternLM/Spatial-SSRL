@@ -207,8 +207,6 @@ pip install flash-attn --no-build-isolation
 ```
 Start your evaluation by referring to the tutorials in <a href="https://github.com/InternLM/Spatial-SSRL/blob/main/evaluation/Eval.md">Eval.md</a >
 
-## 👨‍💻 Todo
-- [ ] Release the training code.
 
 ## Cases
 <p style="text-align: center;"> 
@@ -236,3 +234,4 @@ If you find this project useful, please kindly cite:
 
 ## ❤️ Acknowledgement
 We extend our sincere gratitude to <a href="https://github.com/open-compass/VLMEvalKit">VLMEvalkit</a >, the powerful toolkit to evaluate a vast range of LMMs!
+The work is built upon <a href="https://github.com/hiyouga/EasyR1">EasyR1</a > and <a href="https://github.com/hiyouga/LLaMAFactory">LlaMaFactory</a >, two excellent codebase for LLM training!
