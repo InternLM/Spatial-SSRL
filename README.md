@@ -192,6 +192,8 @@ output_text = processor.batch_decode(
 )
 print("Model Response:", output_text[0])
 ```
+## 🛠️ Training
+See <a href="https://github.com/InternLM/Spatial-SSRL/blob/main/training/training.md">training.md</a >
 
 ## 🛠️ Evaluation
 Prepare your environment:
