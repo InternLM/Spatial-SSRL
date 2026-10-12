@@ -221,11 +221,12 @@ Start your evaluation by referring to the tutorials in <a href="https://github.c
 ## ✒️Citation
 If you find this project useful, please kindly cite:
 ```
-@article{liu2025spatial,
-  title={Spatial-SSRL: Enhancing Spatial Understanding via Self-Supervised Reinforcement Learning},
+@inproceedings{liu2026spatial,
+  title={Spatial-ssrl: Enhancing spatial understanding via self-supervised reinforcement learning},
   author={Liu, Yuhong and Zhang, Beichen and Zang, Yuhang and Cao, Yuhang and Xing, Long and Dong, Xiaoyi and Duan, Haodong and Lin, Dahua and Wang, Jiaqi},
-  journal={arXiv preprint arXiv:2510.27606},
-  year={2025}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={9570--9581},
+  year={2026}
 }
 ```
 
